@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000/tasks'; // Change this when backend is deployed
+const API_URL = 'https://task-c15h.onrender.com'; 
 
 document.getElementById('task-form').addEventListener('submit', async function (e) {
   e.preventDefault();
